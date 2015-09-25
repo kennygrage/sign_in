@@ -1,7 +1,7 @@
-studentList.factory('UtilitiesFactory', function() {
-  var class = {};
+studentList.factory('StudentsFactory', function StudentsFactory() {
+  var students_in_class = {};
   //hardcode the class in
-  factory.class = [ { name: "Paco Rameriz", signedIn: false },
+  students_in_class.students = [ { name: "Paco Rameriz", signedIn: false },
                     { name: "Pablo Sanchez", signedIn: false },
                     { name: "Maria Guadalupe", signedIn: false },
                     { name: "Rosa Garcia", signedIn: false },
@@ -22,5 +22,5 @@ studentList.factory('UtilitiesFactory', function() {
                     { name: "Pedro Percado", signedIn: false },
                     { name: "Martha Escobar", signedIn: false }
   ];
-  return factory;
+  return students_in_class;
 });

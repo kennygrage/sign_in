@@ -12,8 +12,8 @@ studentList.config(function($stateProvider, $urlRouterProvider) {
     controller: 'StudentsCtrl'
   });
 
-  $stateProvider.state('courses.students', {
-    url: "attendance",
+  $stateProvider.state('attendance', {
+    url: "/attendance",
     templateUrl: "partials/attendance.html",
     controller: 'StudentsCtrl'
   });

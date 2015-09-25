@@ -1,0 +1,9 @@
+<div ng-show="students">
+  <h2>Please Sign In</h2>
+  <ul>
+      <li ng-repeat="item in students">
+          {{item.name}} <button class="btn btn-primary" ng-click="changeSignInStatus(item)" ng-if="!item.signedIn">Sign In</button>
+                        <button class="btn btn-danger" ng-click="changeSignInStatus(item)" ng-if="item.signedIn">Sign Out</button>
+    </li>
+  </ul>
+</div>
