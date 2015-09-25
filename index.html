@@ -9,14 +9,16 @@
   <script src="controllers/StudentsController.js"></script>
   <script src="services/StudentsFactory.js"></script>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/main.css">
 </head>
+<nav>
+  <a ui-sref="home">Home</a> | <a ui-sref="sign-in">Sign-in</a> | <a ui-sref="attendance">WHO IS HERE</a>
+</nav>
 <body>
   <div class="container">
     <div ui-view>
 
     </div>
   </div>
-  <a ui-sref="sign-in">Sign-in</a>
-  <a ui-sref="attendance">WHO IS HERE</a>
 </body>
 </html>

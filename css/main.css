@@ -1,0 +1,25 @@
+#home_page {
+  background-color: lightgrey;
+  padding: 20px;
+  margin: 20px 75px;
+}
+
+#disclaimer {
+  font-size: .35em;
+}
+
+#each_student {
+  padding: 5px;
+}
+
+#sign_in_button {
+  color: #330000;
+}
+
+#sign_out_button {
+  color: #992222;
+}
+
+#sign_in_button, #sign_out_button {
+  padding: 1px;
+}
